@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import Project3 from "./Components/Project3";
 import "./index.css";
-import Project2 from "./Components/Project2";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Project2 />
+    <Project3 />
   </StrictMode>
 );
