@@ -1,10 +1,10 @@
 import "./App.css";
-import TravelPlan from "./Components/TravelPlan";
+import Accordion from "./Components/Accordion";
 
 function App() {
   return (
     <>
-      <TravelPlan />
+      <Accordion />
     </>
   );
 }
