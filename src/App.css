@@ -4,11 +4,37 @@
   padding: 2rem;
   text-align: center;
 }
-.panel {
+.gap {
+  margin-right: 10px;
+}
+.input_box {
+  padding: 10px 8px;
+  border-radius: 6px;
+  border: 1px solid #a7a5a5;
+  width: 270px;
+}
+.button {
+  border: 1px solid #a6a6a6;
+}
+ul {
+  list-style: none;
+}
+ul > li > label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+/* .panel {
   border: 1px solid black;
   padding: 20px;
   margin-bottom: 10px;
-}
+} */
 
 /* 
 .logo {
@@ -47,8 +73,8 @@
   color: #888;
 } */
 
-.buttonStyle {
+/* .buttonStyle {
   border: 1px solid black;
   margin-left: 10px;
   margin-bottom: 10px;
-}
+} */
